@@ -77,6 +77,9 @@ export interface Stock {
   last: string;
   ccy: string;
   change: string;
+  changePositive: boolean;
+  changeNegative: boolean;
+  changePercent: string;
 }
 
 export interface StockMarketState {
